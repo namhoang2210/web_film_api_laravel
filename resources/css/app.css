@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Main code */
+/* You can remove these code below*/
+:root {
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+}*{box-sizing:border-box;}input,button,textarea{border:0;outline:none;}
+.fade-loading {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--blue);
+    border-radius: 1.25rem;
+    position: relative;
+}
+.fade-loading:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-color: inherit;
+    animation: fade 1s forwards infinite linear;
+}
+@keyframes fade {
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+body {
+    background-color: #0f172a;
+    color: white;
+}
+.dark-mode {
+    background-color: #f5fcff;
+    color: rgb(31 41 55);
+}
+::-webkit-scrollbar {
+    width: 2px;               /* Chiều rộng vùng chứa scrollbar */
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(96 165 250); /* Màu của thanh cuộn (scroll thumb) */
+    border-radius: 5px;       /* Bo góc scroll thumb */
+}
+
+
