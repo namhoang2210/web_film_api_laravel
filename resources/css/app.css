@@ -48,7 +48,7 @@ body {
     color: rgb(31 41 55);
 }
 ::-webkit-scrollbar {
-    width: 2px;               /* Chiều rộng vùng chứa scrollbar */
+    width: 6px;               /* Chiều rộng vùng chứa scrollbar */
 }
 ::-webkit-scrollbar-thumb {
     background-color: rgb(96 165 250); /* Màu của thanh cuộn (scroll thumb) */

@@ -55,7 +55,7 @@ class HomeController extends Controller
         curl_close($curl1);
         $convert1=json_decode($response1,true);
         $search = $convert1['data']['list'];
-        return view('welcome')
+        return view('home.index')
             ->with(['data'   => $data,
                     'search' => $search]);
     }
