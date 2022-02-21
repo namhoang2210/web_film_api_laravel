@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'HnamTV - Trang chủ')
+@section('title', 'TV - Trang chủ')
 @section('content')
     <div class=" min-h-screen flex">
         <div class="w-[18%] fixed">
@@ -8,7 +8,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span>HnamTv</span>
+                <span>TV</span>
             </div>
             <div class="flex items-center gap-2 ml-[14%] mt-7 text-[22px] font font-semibold">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -66,7 +66,7 @@
                 </svg>
                 <button onclick="thememode()" class="font-semibold">Theme</button>
             </div>
-            <div class="fixed left-0 bottom-0 w-[18%] text-center text-sm mb-2">@2022 Coppyright by Hoang Nam</div>
+            <div class="fixed left-0 bottom-0 w-[18%] text-center text-sm mb-2">@2022 Coppyright by ...</div>
         </div>
         <div class="w-[18%]"></div>
         <div class="w-[64%] border-l border-l-gray-200 pb-[10px]">
